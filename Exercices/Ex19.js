@@ -2,8 +2,10 @@
 
 const arrNum = [2,4,6,8,9,11,12,2343];
 
-const elements = array.forEach(function(arr)  {
-    console.log(`O elemento é: ${arr.elements}`);
-    console.log(`O indice é: `[arr]); 
-    
+const elements = arrNum.forEach(function(arr, index)  {
+    //console.log(`O elemento é: ${arr}`); // Forma 1
+    //console.log(`O indice é: ${arrNum.indexOf(arr)}`);  // Forma 1
+
+    console.log(`O elemento é: ${arr}`); 
+    console.log(`O indice é: ${index}`);
 });
