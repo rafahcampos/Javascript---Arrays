@@ -4,7 +4,9 @@ const arr = [10, 20, 22, 24, 55];
 const searchNumber = 24;
 
 for (let i = 0; i < arr.length; i++) {
-    if(arr[i]) == searchNumber{
-        console.log(arr[i]);
-    }
+  if (arr[i] == searchNumber) {
+    console.log([i]);
+  } else {
+    console.log(-1);
+  }
 }
